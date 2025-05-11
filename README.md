@@ -166,7 +166,7 @@ Plik służy do aktualizacji statusu użytkownika po zakończonej grze. Jeżeli 
 
 Plik odpowiada za całościową obsługę rozgrywki umieszczonej w pliku `game.php`.
 
-Zmienna `const WORD_LENGTH = 5;` określa długość słów, które będą wprowadzane przez użytkownika. Jej zmiana spowoduje wydłużenie/skrócenie planszy w lini poziomej. Przy obecnym założeniu bazy danych zmiana ta może uniemożliwić rozgrywkę, jednak dodając zmieniając wartośc zmiennej na *n* oraz dodając do bazy słowa o długości *n* możliwa jest bezproblemowa rozgrywka.
+Zmienna `const WORD_LENGTH = 5;` określa długość słów, które będą wprowadzane przez użytkownika. Jej zmiana spowoduje wydłużenie/skrócenie planszy w lini poziomej. Przy obecnym założeniu bazy danych zmiana ta może uniemożliwić rozgrywkę, jednak zmieniając wartość zmiennej na *n* oraz dodając do bazy słowa o długości *n* możliwa jest bezproblemowa rozgrywka.
 
 Zmienna `const MAX_GUESSES = 6;` określa ilość prób, które posiada użytkownik na odgadnięcie hasła. Jej zmiana jest możliwa niezależnie, nie powoduje utworzenia problemów związanych z rozgrywką.
 
