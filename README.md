@@ -19,7 +19,7 @@
     - [Plik `updateStats.php`](#plik-updatestatsphp)
   - [Elementy JavaScript](#elementy-javascript)
     - [Plik `game.js`](#plik-gamejs)
-  - [Plik `popup.js`](#plik-popupjs)
+    - [Plik `popup.js`](#plik-popupjs)
   - [Konstrukcja CSS](#konstrukcja-css)
   - [Zawartość folderu `media`](#zawartość-folderu-media)
   - [Konstrukcja bazy danych](#konstrukcja-bazy-danych)
