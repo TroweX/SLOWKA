@@ -184,7 +184,7 @@ Funkcja `function checkGuess()` sprawdza, czy podane przez użytkownika słowo j
 
 ## Plik `popup.js`
 
-Plik służy jak oobsługa okienka pop-up wykorzystywanego do informowania gracza jak wygląda rozgrywka.
+Plik służy jak obsługa okienka pop-up wykorzystywanego do informowania gracza jak wygląda rozgrywka.
 
 Zmienna `const popup` pobiera element z plików .php zawierający konstrukcję pop-upa.
 
