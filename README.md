@@ -170,7 +170,7 @@ Zmienna `const MAX_GUESSES = 6;` określa ilość prób, które posiada użytkow
 
 Pętla `for (let r = 0; r < MAX_GUESSES; r++)` odpowada za tworzenie całej planszy rozgrywki. Plansza tworzona jest na podstawie wartości zmiennnych `WORD_LENGTH` oraz `MAX_GUESSES`.
 
-Funkcja `function handleKey(e)` odpowaiad za obsługę zdarzenia jakim jest naciśnięcie przeycisku przez użytkownika. Jeżeli zostanie nacisnięty przycisk *Backspace*, to cofnięta zostanie ostatnio wprowadzona litera. Jeżeli zostanie naciśnięty przycisk *Enter*, to zostanie sprawdzona poprawność słowa. Warunek `if (/^[a-zA-ZĄĆĘŁŃÓŚŹŻąćęłńóśźż]$/.test(e.key) && currentGuess.length < WORD_LENGTH)` obsługuję wprowadzanie liter do tabelki.
+Funkcja `function handleKey(e)` odpowaiad za obsługę zdarzenia jakim jest naciśnięcie przycisku przez użytkownika. Jeżeli zostanie nacisnięty przycisk *Backspace*, to cofnięta zostanie ostatnio wprowadzona litera. Jeżeli zostanie naciśnięty przycisk *Enter*, to zostanie sprawdzona poprawność słowa. Warunek `if (/^[a-zA-ZĄĆĘŁŃÓŚŹŻąćęłńóśźż]$/.test(e.key) && currentGuess.length < WORD_LENGTH)` obsługuję wprowadzanie liter do tabelki.
 
 Funkcja `function updateBoard()` odpowiada za aktualizowanie widoku planszy gry w oparciu o aktualne próby gracza. Pętla `for (let i = 0; i < WORD_LENGTH; i++)` odpowiada za przeanalizowanie każdej z litery w danym wierszu, ustawieniu tekstu w każdej komórce oraz jego zamianie na wielką literę.
 
