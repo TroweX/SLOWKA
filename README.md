@@ -2,7 +2,6 @@
 
 ## Spis treści
 
-  - [Spis treści](#spis-treści)
   - [Autor](#autor)
   - [Geneza powstania](#geneza-powstania)
   - [Wprowadzenie](#wprowadzenie)
