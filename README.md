@@ -2,7 +2,6 @@
 
 ## Spis treści
 
-- [Dokumentacja projektu **SŁÓWKA**](#dokumentacja-projektu-słówka)
   - [Spis treści](#spis-treści)
   - [Autor](#autor)
   - [Geneza powstania](#geneza-powstania)
