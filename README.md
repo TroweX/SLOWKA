@@ -25,11 +25,11 @@
 
 ## Autor
 
-Tomasz Papierowski, IV sem. Inf, spec. Aplikacje Internetowe i Mobilne
+Tomasz Papierowski, IV sem. Inf, spec. Aplikacje Internetowe i Mobilne.
 
 ## Geneza powstania
 
-Projekt realizujący zaliczenie przedmiotu "Języki znacznników i skryptowe" 2-go roku Informatyki Uniwersytetu Morskiego w Gdyni na wydziałe Elektrycznym
+Projekt realizujący zaliczenie przedmiotu "Języki znacznników i skryptowe" 2-go roku Informatyki Uniwersytetu Morskiego w Gdyni na wydziałe Elektrycznym.
 
 ## Wprowadzenie
 
@@ -65,10 +65,10 @@ projekt/
 ## Lokalizacja oraz wykorzystane technologie
 
 Projekt umieszczony jest na stronie hostingowej *webd.pl* pod domeną *graslow2.webd.pro*. Struktura projektu na hostingu jest taka sama jak w/w *Struktura programu*. Do projektu zostały wykorzystane następujące technologie:
-- HTML - interfejs / konstrukcja strony po stronie użytkownika
-- CSS - konfiguracja części wizualnej
-- JS - konfiguracja części logicznej
-- PHP - komunikacja z bazą danych
+- HTML - interfejs / konstrukcja strony po stronie użytkownika,
+- CSS - konfiguracja części wizualnej,
+- JS - konfiguracja części logicznej,
+- PHP - komunikacja z bazą danych.
 
 ## Elementy HTML/PHP
 
@@ -108,7 +108,7 @@ Znacznik `<p id='accountCreate'><?php echo $successMessage; ?></p>` służy jako
 
 Znaczniki `<h2 id="moveToLog"> Masz już konto? </h2>` oraz `<a href="log.php" id="moveToLogBtn">Logowanie</a>` odpowiadają za przekierowanie użytkownika do panelu logowania.
 
-Umieszczony na początku pliku kod PHP jest aktywowany po naciśnięciu przycisku rejestracji. Pobierane są dane wpisane przez użytkownika. Hasło wpisane przez użytkownika sprawdzane jest pod względem kryteriów silnego hasła oraz poprawności powtórnego wpisana hasła. Nastepnie następuje połączenie z bazą w celu sprawdzenia, czy przypadkiem nie występuje w niej użytkownik o podanym loginie. Jeżeli wszystko się zgadza, użytkownik jest tworzony wraz z zapisem do bazy danych. Jeżeli nie - program przekazuje stosowny komunikat
+Umieszczony na początku pliku kod PHP jest aktywowany po naciśnięciu przycisku rejestracji. Pobierane są dane wpisane przez użytkownika. Hasło wpisane przez użytkownika sprawdzane jest pod względem kryteriów silnego hasła oraz poprawności powtórnego wpisana hasła. Nastepnie następuje połączenie z bazą w celu sprawdzenia, czy przypadkiem nie występuje w niej użytkownik o podanym loginie. Jeżeli wszystko się zgadza, użytkownik jest tworzony wraz z zapisem do bazy danych. Jeżeli nie - program przekazuje stosowny komunikat.
 
 ### Plik `lobby.php`
 
@@ -200,29 +200,29 @@ Wydarzenie `closeBtn.addEventListener("click", () =>` odpowiada za obsługę prz
 
 Arkusz stylów dla każdego z pliku jest zbliżony, co utrzymuje cały projekt w jednej kompozycji.
  
-Głównym elementem powtarzającym się na każdej stronie jest animowany napis o treści ***SŁÓWKA***, ***LOGOWANIE*** lub ***REJESTRACJA***. Sposób wykonania animacji jest identyczny, polega na rozróżnieniu każdej z liter słowa z osobna. Po najechaniu na dowolną literę dochodzi do wykonania `transition`, który odpowiada za delikatną zmianę położenia w pozycji pionowej oraz nadanie odpowiedniego koloru. Wyjątkiem zawsze jest druga litera słowa, która kieruje się odwrotnie niż pozostałe litery
+Głównym elementem powtarzającym się na każdej stronie jest animowany napis o treści ***SŁÓWKA***, ***LOGOWANIE*** lub ***REJESTRACJA***. Sposób wykonania animacji jest identyczny, polega na rozróżnieniu każdej z liter słowa z osobna. Po najechaniu na dowolną literę dochodzi do wykonania `transition`, który odpowiada za delikatną zmianę położenia w pozycji pionowej oraz nadanie odpowiedniego koloru. Wyjątkiem zawsze jest druga litera słowa, która kieruje się odwrotnie niż pozostałe litery.
 
 Dla plików `lobby.php`, `game.php` oraz `scoreboar.php` dodatkowow została zaimplementowana animacja ciągłego przeskakiwania liter oraz ich zmian kolorów. Utworzone jest to za pomocą wykorzystania `@keyframes bounceColorX`, który odpowiada za zmianę położenia oraz koloru.
 
 Stylistyka obramowań opiera się na zastosowania gradientu przechodzącego z koloru niebieskiego do koloru różowego. Z racji na brak natwynego wsparcia ustawienia gradientu jako kolor obramowania, zostało zastosowane `border-image`. 
 
-Wszystkie przyciski funckyjne również otrzymały podświetlenie/obramowanie związane z w/w gradientem w celu zachowania spójności kompozycji 
+Wszystkie przyciski funckyjne również otrzymały podświetlenie/obramowanie związane z w/w gradientem w celu zachowania spójności kompozycji.
 
 Dla plików `lobby.php`, `game.php` oraz `scoreboar.php` dodatkowow został zaimplemetowany pop-up informujący o sposóby gry. Po naciśnięciu stosownego przycisku wyskakuje okienko z prawej strony z pełną instrukcją rozgrywki.
 
 ## Zawartość folderu `media`
 
-Folder przechowuje dodatkowe elementy wykorzystywane na stronie. Znajduje się w nim plik `bg.png`, który jest wykorzystywany jako tło dla każdego z plików. Dodatkowo znajduje się w nim plik `favicon.ico`, który jest wyświetlany jako ikona strony na pasku w przeglądarce
+Folder przechowuje dodatkowe elementy wykorzystywane na stronie. Znajduje się w nim plik `bg.png`, który jest wykorzystywany jako tło dla każdego z plików. Dodatkowo znajduje się w nim plik `favicon.ico`, który jest wyświetlany jako ikona strony na pasku w przeglądarce.
 
 ## Konstrukcja bazy danych
 
 Baza opiera się o *phpMyAdmin* dostępnym na hostingu *webd.pl*. W bazie zawarte są dwie tabele:
 - `users` - tabela przechowująca informacjo o użytkownikach:
-  - **id**, int, AI - identyfikator użytkownika
-  - **login**, varchar(50) - login użytkownika
-  - **password**, char(60) - zahashowane hasło użytkownika
-  - **gamesPlayed**, int - ilość rozegranych gier przez użytkownika
-  - **gamesWon**, int - ilość wygranych gier przez użytkownika
+  - **id**, int, AI - identyfikator użytkownika,
+  - **login**, varchar(50) - login użytkownika,
+  - **password**, char(60) - zahashowane hasło użytkownika,
+  - **gamesPlayed**, int - ilość rozegranych gier przez użytkownika,
+  - **gamesWon**, int - ilość wygranych gier przez użytkownika.
 - `words` - tebale przechowująca listę możliwych słów w grze:
-  - **id**, int, AI - identyfikator słowa
-  - **word**, varchar(5) - słowo
+  - **id**, int, AI - identyfikator słowa,
+  - **word**, varchar(5) - słowo.
