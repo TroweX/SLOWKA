@@ -200,7 +200,7 @@ Wydarzenie `closeBtn.addEventListener("click", () =>` odpowiada za obsługę prz
 
 Arkusz stylów dla każdego z pliku jest zbliżony, co utrzymuje cały projekt w jednej kompozycji.
  
-Głównym elementem powtarzającym się na każdej stronie jest animowany napis o treści *Słówka*, *Logowanie* lub *Rejestracja*. Sposób wykonania animacji jest identyczny, polega na rozróżnieniu każdej z liter słowa z osobna. Po najechaniu na dowolną literę dochodzi do wykonania `transition`, który odpowiada za delikatną zmianę położenia w pozycji pionowej oraz nadanie odpowiedniego koloru. Wyjątkiem zawsze jest druga litera słowa, która kieruje się odwrotnie niż pozostałe litery
+Głównym elementem powtarzającym się na każdej stronie jest animowany napis o treści ***SŁÓWKA***, ***LOGOWANIE*** lub ***REJESTRACJA***. Sposób wykonania animacji jest identyczny, polega na rozróżnieniu każdej z liter słowa z osobna. Po najechaniu na dowolną literę dochodzi do wykonania `transition`, który odpowiada za delikatną zmianę położenia w pozycji pionowej oraz nadanie odpowiedniego koloru. Wyjątkiem zawsze jest druga litera słowa, która kieruje się odwrotnie niż pozostałe litery
 
 Dla plików `lobby.php`, `game.php` oraz `scoreboar.php` dodatkowow została zaimplementowana animacja ciągłego przeskakiwania liter oraz ich zmian kolorów. Utworzone jest to za pomocą wykorzystania `@keyframes bounceColorX`, który odpowiada za zmianę położenia oraz koloru.
 
