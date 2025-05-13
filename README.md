@@ -142,7 +142,7 @@ Znacznik `<div id="popup">` przechowuje całą strukturę *pop-up* informującą
 
 ### Plik `scoreboard.php`
 
-Plik służy do wyświetlenia tablicy wyników graczy. W głównej cześci widoczna jest tabelka wraz z możlwiością jej modyfikowania, który przedstawia obecne pozycjonowanie graczy na podstawie rekordów umieszczonych bazie danych. Tabelę można dostosować pod ilość wyświetlanych rekordów (od 1 do 10) oraz pod jedno z trzech dostępnych kryteriów - *Wygrane gry*, *Rozegrane gry*, *% wygranych*. W górnej części ekranu widoczny jest animowany napis ***SŁÓWKA***. W dolnej części ekranu występują dwa przyciski - *Powrót do lobby* oraz *Jak grać?*.
+Plik służy do wyświetlenia tablicy wyników graczy. W głównej cześci widoczna jest tabelka wraz z możlwiością jej modyfikowania, który przedstawia obecne pozycjonowanie graczy na podstawie rekordów umieszczonych w bazie danych. Tabelę można dostosować pod ilość wyświetlanych rekordów (od 1 do 10) oraz pod jedno z trzech dostępnych kryteriów - *Wygrane gry*, *Rozegrane gry*, *% wygranych*. W górnej części ekranu widoczny jest animowany napis ***SŁÓWKA***. W dolnej części ekranu występują dwa przyciski - *Powrót do lobby* oraz *Jak grać?*.
 
 Znacznik `<h1 id="mainTitle">` przechowuje sześć znaczników `<span id="letterSpanX">S</span>`, które odpowiadają za wyświetlenie animowanego napisu strony.
 
